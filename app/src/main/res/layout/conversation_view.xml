@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/converPage"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+   <LinearLayout
+       android:id="@+id/converPage"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+           android:id="@+id/converTitle"
+           android:layout_margin="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Ata coffee shop"
+           android:textColor="#fff"
+           android:textSize="25dp"
+           android:layout_gravity="center"/>
+       <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+           android:id="@+id/converKorea"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="setewtewfstestewtetwtwtwtew fdtrgeryerytrytrytryreyretrtererteryttururt"
+           android:textColor="#fff"
+           android:background="@drawable/button_rouonded"
+           android:backgroundTint="@color/colorPrimaryDark"
+           android:ellipsize="end"
+           android:lineSpacingMultiplier="1.3"
+           android:maxLines="12" />
+       <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+           android:id="@+id/converEng"
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="setewtewfstestewtetwtwtwtew fdtrgeryerytrytrytryreyretrtererteryttururt"
+           android:textColor="#fff"
+           android:ellipsize="end"
+           android:lineSpacingMultiplier="1.3"
+           android:maxLines="12"
+           android:background="@drawable/button_rouonded"
+           android:backgroundTint="@color/colorPrimaryDark"/>
+
+       <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+           android:id="@+id/converMyan"
+           android:layout_marginTop="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="setewtewfstestewtetwtwtwtew fdtrgeryerytrytrytryreyretrtererteryttururt"
+           android:textColor="#fff"
+           android:ellipsize="end"
+           android:lineSpacingMultiplier="1.3"
+           android:maxLines="12"
+           android:backgroundTint="@color/colorPrimaryDark"
+           android:background="@drawable/button_rouonded"/>
+
+   </LinearLayout>
+</LinearLayout>

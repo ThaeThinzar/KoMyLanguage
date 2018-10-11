@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:gravity="center">
+
+    <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+        android:id="@+id/tvKorea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Koera BlaBla"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        app:customFont="fonts/batang.ttc"/>
+    <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+        android:id="@+id/tvCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Noun"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#ae8579">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Myanmar)"
+            android:textColor="#0d0b0b"
+            android:textStyle="bold"/>
+
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvMyanmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Koera BlaBla"
+            android:textSize="20dp"
+            android:padding="10dp"
+            app:customFont="font/zawgyi.ttf"/>
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#4191f4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(English)"
+            android:textColor="#0d0b0b"
+            android:textStyle="bold"/>
+
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Koera BlaBla"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252424"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#252424"
+        android:padding="10dp">
+
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvPattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="grammar"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="5dp"/>
+
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvMmMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Myanmar"
+            android:gravity="center"
+            android:textColor="#fff"
+            app:customFont="fonts/zawgyi.tff"
+            android:padding="5dp"/>
+
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvEngMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#0b0b0b"
+            android:background="#c2b553"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Pattern"
+            android:textSize="15dp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:backgroundTint="#505858"
+            android:layout_margin="10dp">
+            <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+                android:id="@+id/tvForm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Pattern"
+                android:padding="5dp"/>
+            <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+                android:id="@+id/tvForm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Pattern"
+                android:padding="5dp"/>
+            <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+                android:id="@+id/tvForm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Pattern"
+                android:padding="5dp"/>
+            <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+                android:id="@+id/tvForm4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="Pattern"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvMnEg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#349ab1"
+            android:padding="5dp"
+            android:layout_marginTop="15dp"
+            android:text="Example Myanmar"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="#0a0909"
+            android:textSize="15dp"
+            app:customFont="fonts/zawgyi.ttf" />
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvEngEg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#0d0c0c"
+            android:background="#c98346"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Example English"
+            android:textSize="15dp"
+            android:padding="5dp"/>
+        <com.thaethinzarkhaingsoe.myngapaw.mylibrary.TextViewPlus
+            android:id="@+id/tvKorEg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#0b0b0b"
+            android:background="#349ab1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="Example Korean"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+</ScrollView>
